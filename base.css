@@ -1,19 +1,25 @@
+body {
+   background-color: gray;
+   margin: 0;
+}
+
 #container {
    width: 960px;
-   height: 300px;
+   height: 180px;
    background-color: black;
 }
 
 .filmstrip {
    position: relative;
-   height: 200px;
-   background-color: green;
+   background-color: white;
 }
 
 .frame {
-   display: inline-block;
+   float: left;
+   overflow: hidden;
 }
 
 .frame img {
-   height: 200px;
+   height: 140px;
+   margin: 20px;
 }
